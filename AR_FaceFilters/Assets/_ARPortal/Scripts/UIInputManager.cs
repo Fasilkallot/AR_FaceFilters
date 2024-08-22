@@ -15,6 +15,8 @@ public class UIInput : MonoBehaviour
 
     private void Awake()
     {
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = 60;
         /*_debugText = GetComponentInChildren<Text>();
 
         if (_debugText == null)
@@ -28,6 +30,7 @@ public class UIInput : MonoBehaviour
         _raycastManager = GetComponent<ARRaycastManager>();
         _planeManager = GetComponent<ARPlaneManager>();
     }
+
 
     private void Update()
     {
@@ -73,7 +76,9 @@ public class UIInput : MonoBehaviour
                     // Show a message when no hits are detected
                     _debugText.text = "No hit detected";
                 }*/
+
             }
         }
+
     }
 }

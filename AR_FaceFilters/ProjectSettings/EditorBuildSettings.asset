@@ -5,18 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 1
+    path: Assets/_ARPortal/Scene/AR_Portal.unity
+    guid: 5729acac6ea27cc4c99e6f969df84316
   - enabled: 0
     path: Assets/ARMarker/Scenes/AR_Marker.unity
     guid: 6678fb4c898d4e04ea72989e59b7b342
   - enabled: 0
     path: Assets/FaceFilter/Scenes/InteractiveFilter.unity
     guid: 47e012ea44b1f754086f4260ba4bed62
-  - enabled: 1
-    path: Assets/_ARPortal/Scene/AR_Portal.unity
-    guid: 5729acac6ea27cc4c99e6f969df84316
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: f262851c8a08173438cffb810622cff2, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 3b6113c5cb708b5498d1df5a8200c72e, type: 2}
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 8284609d52cc93d4a85957fc0c9696bc, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 0dc4d5920ba5ce54d86a1d7903f264da, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: de59fa7a0b4760c4cbfd624ff9d24b68, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 92b2b4b4e393fb5499a794e9b8c62c86, type: 2}
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 02d578b0ae909c343ba29548f971816f, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 96757206a60fab14886a6607e1d494fc, type: 2}
